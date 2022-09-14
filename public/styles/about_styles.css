@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. Fonts
+2. Body and some general stuff
+3. Header
+	3.1 Logo
+4. Banner section
+4. Banner section
+4. About section
+6. Footer
+7. Copyright
+
+
+******************************/
+
+/***********
+1. Fonts
+***********/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@font-face
+{
+	font-family: 'Beyond';
+	src: url('../fonts/beyond_the_mountains.otf')  format('truetype'),
+		 url('../fonts/beyond_the_mountains.ttf')  format('opentype');
+}
+
+/*********************************
+2. Body and some general stuff
+*********************************/
+
+*
+{
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+div
+{
+	display: block;
+	position: relative;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul
+{
+	list-style: none;
+	margin-bottom: 0px;
+}
+p
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 2;
+	font-weight: 400;
+	color: #929191;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+p a
+{
+	display: inline;
+	position: relative;
+	color: inherit;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+a, a:hover, a:visited, a:active, a:link
+{
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+
+h1{font-size: 48px;}
+h2{font-size: 36px;}
+h3{font-size: 24px;}
+h4{font-size: 18px;}
+h5{font-size: 14px;}
+h1, h2, h3, h4, h5, h6
+{
+	font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+
+
+
+
+
+/*********************************
+3. Header
+*********************************/
+
+.header
+{
+	position: fixed;
+	width: 100%;
+	z-index: 12;
+}
+.nav-bar
+{
+	height: 60px;
+}
+
+
+
+
+
+
+/*********************************
+3.1 Logo
+*********************************/
+
+.logo a img
+{
+	width: 90px;
+	display: inline-block;
+	vertical-align: baseline;
+	margin-right: 9px;
+	-webkit-transform: translateY(2px);
+	-moz-transform: translateY(2px);
+	-ms-transform: translateY(2px);
+	-o-transform: translateY(2px);
+	transform: translateY(2px);
+}
+
+
+
+
+
+/*********************************
+4. BANNER SECTION
+*********************************/
+
+#banner-about-img
+{
+	width: 100%;
+	background-image: url(/images/about_background.jpg);
+	height: 400px;
+}
+.banner-about-content
+{
+	padding: 200px 200px;
+	background: rgba(0, 0, 0, 0.6);
+	height: 100%;
+	color:#FFFFFF;
+}
+
+
+
+
+
+/*********************************
+5.	ABOUT SECTIONs
+*********************************/
+
+.about-img img
+{
+	width: 400px;
+	vertical-align: middle;
+
+}
+
+
+
+
+/*********************************
+6. Footer
+*********************************/
+
+.footer
+{
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	background: #330000;
+}
+.footer-text-color a
+{
+	color: white;
+}
+.footer-width a img
+{
+	width: 150px;
+}
+.footer-logo
+{
+	padding-top: 67px;
+}
+.footer-list a:hover
+{
+	color: #fa9e1c;
+}
+
+
+
+
+
+/*********************************
+7. Copyright
+*********************************/
+
+.copyright
+{
+	background: #05000a;
+}
+.copyright_content
+{
+	padding-top: 16px;
+	text-align: center;
+	height: 52px;
+}
+.copyright_content div
+{
+	font-size: 12px;
+	font-weight: 600;
+	color: #6f4444;
+}

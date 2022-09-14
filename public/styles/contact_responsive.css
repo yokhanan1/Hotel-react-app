@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. 768px (Mobile)
+
+
+******************************/
+
+/************
+1. 768px (Mobile)
+************/
+
+@media only screen and (max-width: 768px)
+{
+	.banner-contact-content
+	{
+		padding: 200px 120px;
+	}
+	.mobile-con
+	{
+		margin: 0 auto;
+	}
+	.mobile-res
+	{
+		font-weight: 700;
+		text-align: center;
+	}
+	.form_submit_button
+	{
+		margin-left: 50px;
+	}
+	.mob-logo
+	{
+		text-align: center;
+	}
+	.footer-width a img
+	{
+		width: 150px;
+	}
+	.mobile-align
+	{
+		text-align: center;
+		padding-bottom: 50px;
+	}
+	.footer
+	{
+		padding-top: 0;
+	}
+}
+

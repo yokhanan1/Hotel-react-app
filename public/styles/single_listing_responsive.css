@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+/******************************
+[Table of Contents]
+
+1. 768px (Mobile)
+
+
+******************************/
+
+/************
+1. 768px (Mobile)
+************/
+
+@media only screen and (max-width: 768px)
+{
+	.single-listing
+	{
+		padding: 0;
+	}
+	.image-grid
+	{
+		margin-left: 50px;
+		margin-right: 50px;
+		padding-bottom: 50px;
+	}
+	.mobile-padding
+	{
+		padding-bottom: 40px !important;
+	}
+	.title-section
+	{
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	.mobile-cen
+	{
+		text-align: center;
+		padding: 30px 0px;
+	}
+	.nav
+	{
+		margin-left: 50px;
+		margin-right: 70px;
+	}
+	.fixed-section
+	{
+		margin-left: 50px;
+	}
+	.col-sm-8{width: 80%;}
+	.col-sm-4{width: 90%;}
+	.col-sm-9{width: 80%;}
+	.col-sm-3{width: 20%;}
+	.footer-width a img
+	{
+		width: 150px;
+	}
+	.mobile-align
+	{
+		text-align: center;
+		padding-bottom: 50px;
+	}
+	.footer
+	{
+		padding-top: 0;
+	}
+}

@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/******************************
+
+[Table of Contents]
+
+1. 768px (Mobile phones)
+2. 600px (Tablets)
+
+******************************/
+
+
+
+
+
+/************
+1. 768px (Mobile Phones)
+************/
+
+@media only screen and (max-width: 768px)
+{
+	.logo a img
+	{
+		width: 90px;
+		margin-left: 10px;
+	}
+	.slide{
+		height: 500px;
+	}
+	.slide-content
+	{
+		padding: 120px 80px;
+	}
+	.toggle-section
+	{
+		margin-top: -139px;
+		padding: 80px;
+		margin-bottom: -70px;
+	}
+	.nav-link
+	{
+		padding: 17px 50px !important;
+	}
+	.card
+	{
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 40px;
+	}
+	.cta-cards
+	{
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+	.post-slide
+	{
+		margin-right: 90px;
+		margin-left: 90px;
+	}
+	.owl-next
+	{
+	top: -230px !important;
+	}
+	.cta-contained
+	{
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	.cta-text
+	{
+		font-size: 30px;
+		text-align: center;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.col-sm-8 {width: 65%;}
+	.col-sm-4 {width: 35%;}
+	.img-holder
+	{
+	width: 1000%;
+	border-radius: 30px;
+	}
+	.mobile-btn
+	{
+		margin: 40px 75px 0px 0px;
+		padding-bottom: 20px;
+	}
+	.cta-btn
+	{
+		padding: 8px 8px;
+		margin: 0 auto;
+	}
+	.mobile-align
+	{
+		text-align: center;
+		padding-bottom: 50px;
+	}
+	.footer
+	{
+		padding-top: 0;
+	}
+	.footer-width a img
+	{
+		width: 150px;
+	}
+	
+}
+
+
+
+
+
+
+/************
+2. 600px (Tablets)
+************/
+
+/* @media only screen and (min-width: 769px) and (max-width: 1199.98px)
+{
+	.slide{
+		height: 200px;
+	}
+	.slide-content
+	{
+		padding: 120px 80px;
+	}
+} */

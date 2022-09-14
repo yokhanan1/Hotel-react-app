@@ -1,0 +1,350 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. Fonts
+2. Body and some general stuff
+3. Nav/Tab link
+4. Header
+	4.1 Logo
+5. Single Listing
+6. Rooms
+7. Reviews
+8. Footer
+9. Copyright
+
+
+******************************/
+
+/***********
+1. Fonts
+***********/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@font-face
+{
+	font-family: 'Beyond';
+	src: url('../fonts/beyond_the_mountains.otf')  format('truetype'),
+		 url('../fonts/beyond_the_mountains.ttf')  format('opentype');
+}
+
+/*********************************
+2. Body and some general stuff
+*********************************/
+
+*
+{
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+body
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	background: #FFFFFF;
+	color: #a5a5a5;
+}
+div
+{
+	display: block;
+	position: relative;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul
+{
+	list-style: none;
+	margin-bottom: 0px;
+}
+p
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 2;
+	font-weight: 400;
+	color: #929191;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+p a
+{
+	display: inline;
+	position: relative;
+	color: inherit;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+a, a:hover, a:visited, a:active, a:link
+{
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+h1{font-size: 48px;}
+h2{font-size: 36px;}
+h3{font-size: 24px;}
+h4{font-size: 18px;}
+h5{font-size: 14px;}
+h1, h2, h3, h4, h5, h6
+{
+	font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+.cursor
+{
+	cursor: pointer;
+}
+
+
+/*********************************
+3. Nav/Tab link
+*********************************/
+
+.nav-link:hover
+{
+	color: #491773;
+}
+.nav-link:active
+{
+	color: #000000;
+}
+.nav-link
+{
+	color: red;
+}
+
+
+
+
+
+/*********************************
+4. Header
+*********************************/
+
+.header
+{
+	/* position: fixed; */
+	width: 100%;
+	z-index: 12;
+}
+.nav-bar
+{
+	height: 60px;
+}
+
+
+
+
+
+/*********************************
+4.1 Logo
+*********************************/
+
+.logo a
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	color: #f4f4f8;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+.logo a img
+{
+	width: 90px;
+	display: inline-block;
+	vertical-align: baseline;
+	margin-right: 9px;
+	-webkit-transform: translateY(2px);
+	-moz-transform: translateY(2px);
+	-ms-transform: translateY(2px);
+	-o-transform: translateY(2px);
+	transform: translateY(2px);
+}
+
+/*********************************
+5. Single Listing
+*********************************/
+
+.single-listing
+{
+	margin-top: 80px;
+	padding: 0px 120px;
+}
+.fixed-section
+{
+	background-color: #F3F4F8 !important;
+}
+
+
+
+
+/*********************************
+6. Rooms
+*********************************/
+
+.room
+{
+	margin-bottom: 33px;
+}
+.room:last-child
+{
+	margin-bottom: 0px;
+}
+.room_image
+{
+	width: 100%;
+}
+.room_image img
+{
+	width: 100%;
+}
+.room-content
+{
+	border-radius: 0px 17px 17px 0px;
+}
+.img-content
+{
+	border-radius: 17px 0px 0px 17px;
+}
+.room-content:hover
+{
+	background-color: #F4FCFF !important;
+}
+.btn-color
+{
+	background-color: #dbdbdb;
+	border-radius: 10px;
+}
+
+#background-img-1
+{
+	background: url(/images/room-4.jpg);
+	background-size: cover;
+}
+#background-img-2
+{
+	background: url(/images/room-3.jpg);
+	background-size: cover;
+}
+#background-img-3
+{
+	background: url(/images/room-5.jpg);
+	background-size: cover;
+}
+
+
+
+
+/*********************************
+7. Reviews
+*********************************/
+
+.review_image
+{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.review_image img
+{
+	width: 100%;
+}
+.review-content
+{
+	padding-left: 50px;
+}
+
+
+
+
+
+/*********************************
+8. Footer
+*********************************/
+
+.placeholder-text::placeholder {
+	color: #858585;
+	font-size: small;
+}
+.placeholder-text:focus 
+{
+	font-size: small;
+}
+/* for password rest  */
+.placeholder-text
+{
+	font-size: small;
+}
+
+
+
+
+/*********************************
+8. Footer
+*********************************/
+
+.footer
+{
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	background: #330000;
+}
+.footer-text-color a
+{
+	color: white;
+}
+.footer-width a img
+{
+	width: 150px;
+}
+.footer-logo
+{
+	padding-top: 67px;
+}
+.footer-list a:hover
+{
+	color: #fa9e1c;
+}
+
+
+
+
+
+/*********************************
+9. Copyright
+*********************************/
+
+.copyright
+{
+	background: #05000a;
+}
+.copyright_content
+{
+	padding-top: 16px;
+	text-align: center;
+	height: 52px;
+}
+.copyright_content div
+{
+	font-size: 12px;
+	font-weight: 600;
+	color: #6f4444;
+}
